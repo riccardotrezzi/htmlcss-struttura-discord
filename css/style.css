@@ -17,7 +17,7 @@ body{
     width: 80%;
 }
 
-header, main{
+header{
     margin-bottom: 20px;
 }
 
@@ -43,6 +43,11 @@ main article{
     background-color: lightgray;
 }
 
+.background-4{
+    background-color:rgb(1, 204, 163);
+    width:80%;
+}
+
 .flex-container-1{
     display: flex;
     justify-content: center;
@@ -54,12 +59,27 @@ main article{
     padding: 15px;
     margin-bottom: 20px;
 }
+.flex-container-2-1{
+    display: flex;
+    padding: 15px;
+}
 
 .flex-container-3{
     display: flex;
     flex-direction: row-reverse;
     padding: 15px;
     margin-bottom: 20px;
+}
+
+.flex-container-4{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-5{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .menu{
@@ -92,8 +112,53 @@ article{
     border: 2px dashed black;
 }
 
-main > section{
+.box-green{
+    width: 100%;
     min-height: 800px;
     background-color: green;
     border: 3px dashed black;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+}
+
+.section-footer-1{
+    width:30%;
+    min-height: 500px;
+    background-color: pink;
+    border: 2px dashed black; 
+}
+
+.section-footer-2{
+    width:70%;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 2px dashed black; 
+}
+
+.div-footer-3{
+    min-height: 500px;
+    width:25%;
+    background-color: rgb(1, 204, 163);
+    border: 2px dashed white;
+}
+
+#white-line{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-footer-3{
+    width: 100%;
+    margin: 10px;
+}
+
+.small-rectangle{
+    background-color: pink;
+    border: 2px dashed black;
+    width:fit-content;
+    height: 30px;
+    text-align: center;
 }
