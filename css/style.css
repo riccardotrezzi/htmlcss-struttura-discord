@@ -12,24 +12,54 @@ body{
 }
 
 /*General*/
-
-
 .container{
     margin: 0 auto;
     width: 80%;
 }
 
+header, main{
+    margin-bottom: 20px;
+}
 
+main aside{
+    width: 70%;
+}
+
+main article{
+    width: 30%;
+}
 /*Debug*/
-.background-1{
+#background-1{
     background-color: rgb(0, 191, 255);
     min-height: 50px;
 }
 
-.flex-container{
+#background-2{
+    background-color: blue;
+    height: 500px;
+}
+
+.background-3{
+    background-color: lightgray;
+}
+
+.flex-container-1{
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+
+.flex-container-2{
+    display: flex;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.flex-container-3{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .menu{
@@ -41,3 +71,29 @@ body{
     text-align: center;
 }
 
+.box-pink{
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgb(248, 110, 255);
+    width: 70%;
+    min-height: 400px;
+    border: 2px dashed black;
+}
+
+aside{
+    min-height: 500px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+article{
+    min-height: 500px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+main > section{
+    min-height: 800px;
+    background-color: green;
+    border: 3px dashed black;
+}
