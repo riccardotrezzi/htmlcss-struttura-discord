@@ -1,0 +1,43 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Font*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*General*/
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/*Debug*/
+.background-1{
+    background-color: rgb(0, 191, 255);
+    min-height: 50px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.menu{
+    align-items: center;
+    background-color: yellow;
+    border: 2px dashed black;
+    min-height: 40px;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
